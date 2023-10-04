@@ -1,0 +1,165 @@
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    margin-left: 30px;  
+}
+nav
+{
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 2%;
+    font-size: larger;
+}
+button
+{
+float: right;
+margin-top:5px;
+border-radius: 5px;
+margin-right: 10px;
+}
+.search
+{
+    float: right;
+    margin-top: 3px;
+    border-radius: 5px;
+    margin-right: 20px;
+    width: 200px;
+    height: 20px;
+}
+.first
+{
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    border: 30px;
+    text-align: center;
+    font-size:25px;
+    
+    
+}
+select
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: cornflowerblue;
+    border:none;
+    font-weight:bolder;
+    border:0px;
+    margin-bottom: 10px;
+    font-size:20px;
+    margin-top: 0%;
+
+}
+.sec
+{
+background-color: cornflowerblue;
+color: white;
+font-family: 'Times New Roman', Times, serif;
+font-size: large;
+padding: 7px;
+}
+.slideshow-container {  
+    max-width: 700px;
+    position: relative;
+    content: "";
+    display: table;
+    float: left;
+    width: 50%;
+  }
+
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+ 
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+ 
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+  .column {
+    float: left;
+    width: 50%;
+    color: rgb(37, 102, 222);
+    }
+
+    .product:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin: 7px;
+    }
+    .a {
+      float: left;
+      width: 30%;
+      color: white;
+      background:url(https://wallpapercave.com/wp/wp5600944.jpg) ;
+      padding:20px;
+      }
+  
+    .links:after {
+      content: "";
+      display: table;
+      clear: both;
+      margin: 7px;
+      }
+      
+      .fa {
+        padding: 20px;
+      text-align: center;
+        margin: 5px 2px;
+        font-size: 30px;
+        width: 50px;
+      }
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+      .fa-youtube {
+        background: #bb0000;
+        color: white;
+      }
+      .fa:hover {
+          opacity: 0.9;
+      }
+     
+  footer
+  {
+    padding:10px;
+    background-color: cornflowerblue;
+  }

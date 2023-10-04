@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<head>
+<title>star Bank-Online Internet Banking and Personal Banking</title>
+<meta content="initial-scale=1.0,width-device-width" name="viewport">
+<meta content="text/html; charset UTF-8" http-equiv="content-type">
+<link rel="stylesheet" href="project 2.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+    <!------Navigation Bar------->
+    <nav>
+        <a href="*" style="text-decoration: none; color: white;">About us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="C:/Users/Ankit/Desktop/DOJA/itvedant/HTML/Assignments/Assignment 3.html" style="text-decoration: none; color: white;"> Star Bank Online </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="*" style="text-decoration: none; color: white;">&phone;1800-2345-2345 </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="*" style="text-decoration: none; color: white;"> Location</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="submit">search</button>
+        <input class="search" type="text" placeholder="search here" />
+   
+      </nav>
+
+    <!------first section------>
+    <div class="first">
+    <img src="C:/Users/Ankit/Desktop/DOJA/itvedant/HTML/project/Logo.jpg" height="150px" width="170px" style="margin-top: 20px;"/>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <!----1---->
+     <select name="Personal" id="a">&nbsp;&#5167;
+        <option value="a">&nbsp;Personal&nbsp;</option>
+        <option value="b">&nbsp;Loan&nbsp;</option>
+        <option value="c">&nbsp;Savings&nbsp;</option>
+        <option value="d">&nbsp;Card&nbsp;</option>
+     </select>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <!----2---->
+       <select name="Business" id="b">&nbsp;&#5167;
+        <option value="a">&nbsp;Business&nbsp;</option>
+        <option value="b">&nbsp;MSME&nbsp;</option>
+        <option value="c">&nbsp;Corporate&nbsp;</option>
+     </select>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <!----3---->
+       <select name="Invest" id="c">&nbsp;&#5167;
+        <option>Investment</option>
+        <option value="a">&nbsp;Govt.Product&nbsp;</option>
+        <option value="b">&nbsp;Mutual Funds&nbsp;</option>
+        <option value="c">&nbsp;Insurance&nbsp;</option>
+     </select>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <!----4---->
+        <select name="Agri" id="d">&#5167;
+        <option>Agriculture</option>
+        <option value="a">&nbsp;Products</option>
+        <option value="b">&nbsp;Finacial Inclusion&nbsp;</option>
+        <option value="c">&nbsp;Services&nbsp;</option>
+     </select>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+
+    <!------Second Section------>
+    <div class="sec">
+        <marquee>NOTICE TO CUSTOMERS - As per RBI guidelines all Re-KYC/Periodic KYC due customers are requested to contact your home/nearest branch along with latest KYC documents and update your due KYC, if you have already updated your latest KYC with bank, please ignore this communication</marquee>
+    </div>
+
+    <!------Third section----->  
+    <div class="A">
+      <div class="slideshow-container">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="C:/Users/Ankit/Desktop/DOJA/itvedant/HTML/project/off.jpg" height="450px" width="400px">
+      </div>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="C:/Users/Ankit/Desktop/DOJA/itvedant/HTML/project/saving acc.png" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="C:/Users/Ankit/Desktop/DOJA/itvedant/HTML/project/homeloan.png" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="C:/Users/Ankit/Desktop/DOJA/itvedant/HTML/project/vehicle.png" style="width:100%" height="450px">
+        </div>
+    </div>
+        <br>
+        
+        <div style="text-align:left; text-indent:1000px;" >
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+      </div>
+        <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 5000); // Change image every 5 seconds
+            }
+            </script>
+
+            <!----Fourth section-----> 
+            <h1 style="color: rgb(59, 122, 238);">Our Products</h1>     
+            <div class="product">
+                <div class="column">
+                <h4> STAR HOME LOAN FEATURES</h4>
+                <ul>
+                <li>Maximum quantum up to 90% of market value</li>
+                <li>Maximum repayment tenure up to 360 months</li>
+                <li>Holiday/Moratorium period up to 36 months</li>
+                <li>EMI starts @ Rs.776/-per Lakh</li>
+                <li>Instant Top Up Loan Available</li>
+                <li>Loan facility for purchasing Solar PV @ROI Home Loan</li>
+                <li>Insurance premium considered under Project Cost (treated as Home Loan component) </li>
+                <li>Step up/Step Down EMI facility</li>
+                </ul>
+                </div>
+                <div class="column" >
+                    <h4>STAR ASSET BACKED LOAN</h4>
+                    <ul>
+                    <li>To provide working capital for building up of current assets</li>
+                    <li>To acquire fixed assets, plant & machinery needed for business purpose, capacity expansion and modernization</li>
+                    
+                    <li>To purchase/Renovate/Construct business premises / office/Godown/Shop/Unit etc. </li>
+                    
+                    <li>To tide over liquidity mismatch</li>
+                    
+                    <li>To repay high-cost debt (Business loan of other Banks/FIs)</li>
+                </ul>      
+                </div>
+            </div>
+            <div class="Products">
+                <div class="column">
+                    <h4>GOLD LOAN</h4>
+                    <ul>
+                    <li>Loan available upto 85 % of Gold value.</li>
+                    <li>Nominal processing charge</li>
+                    <li>Express credit delivery</li>
+                    <li>Easy repayment terms
+                    <li>Attractive rate of Interest.</li>
+                    <li>Special Concession in ROI for hallmarked jewellery*</li>
+                    <li>TAT - 25 Minutes</li>
+                  </ul>
+                </div>
+                <div class="column">
+                  <h4>STAR VEHICLE LOAN</h4>
+                <ul>
+                  <li>Purchase of light personal vehicles not requiring heavy duty driving license viz; Jeeps, Vans etc</li>
+                  <li>For purchase of Water vehicles such as Motor Boats / Boats / Sports Boats and other water vehicles for personal use</li>
+                  <li>Vehicles powered by non-conventional energy, such as electronic / battery operated small vehicles for urban transport provided not registered with RTO can be financed subject to specified curtailed limits of advance preferably with collateral security.</li>
+                  <li>Maximum limits No Maximum Limit</li>
+                  <li>(Can be multiple personal vehicles, registration of vehicle as personal and not to be used for commercial)</li>
+                  <li>Maximum repayment tenure :- Max. 84 months.</li>
+                  <li>Maximum quantum up to 90% for New vehicles only</li>
+                </ul>
+                </div>
+            </div>
+
+  <!-----fifth section------>
+  <div class="links">
+    <div class="a">
+    <h4>Useful links</h4>
+    <li>Communication to BSE/NSE</li>
+    <li>ESG Corner</li>
+    <li>Notice For Customers</li>
+    <li>AML/KYC</li>
+    <li>Sitemap</li>
+    </div>
+
+    <div class="a">
+    <h4>Important links</h4>
+    <li>Tender</li>
+    <li>Death Claim Portal</li>
+    <li>Career</li>
+    <li>Regulatory Disclosure Section</li>
+    <li>Privacy Policy</li>
+    </div>
+
+    <div class="a">
+    <h4>Quick links</h4>
+    <li>Application for empanelment of valuers</li>
+    <li>Independent External Monitor (IEM)</li>
+    <li>RSETIs</li>
+    <li>CSR</li>
+    <li>Citizens’ Duties-Constitution of India</li>
+    </div>
+  </div>
+
+  <!--sixth section---->
+  <div class="buttons">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <a href="#" class="fa fa-facebook"> </a>       
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <a href="#" class="fa fa-linkedin"> </a>      
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <a href="#" class="fa fa-instagram"> </a>      
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <a href="#" class="fa fa-youtube"> </a>
+  </div>
+
+<footer>
+    <p><strong>&copy;Star bank.All Rights Reserved</strong></p>
+    <p>Site best viewed at 1366 * 768 resolution in Microsoft Edge 105+, Mozilla 105+ and Google Chrome 106+ browser versions</p>
+</footer>        
+        
+   
+</head>
+</body>
+</html>
